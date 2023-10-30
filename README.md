@@ -5,6 +5,7 @@
 Microsoft introduced CoPilot as part of their new feature in 2023 for all M365 and PowerPlatform Apps. It is a Generative AI tool that assists in completing the tasks in their apps using just NL (Natural Language).
 
 [Microsoft introduction to CoPilot published Mar 16, 2023](https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/)
+<<<<<<< HEAD
 
 # TITLE
 
@@ -105,3 +106,5 @@ Quantum Computing and AI.
 * Why are these technologies appropriate for your solution?
 * Many AI applications, such as planning and scheduling, can benefit from quantum computing because it helps explore viable solutions to problems. AI architectures can be developed more efficiently and at a larger scale using quantum computers.
 [https://www.einfochips.com/blog/quantum-computing-in-artificial-intelligence-around-the-corner/#:\~:text=Many%20AI%20applications%2C%20such%20as,larger%20scale%20using%20quantum%20computers.]
+=======
+>>>>>>> origin/HEAD
