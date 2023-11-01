@@ -1,4 +1,4 @@
-<p align="center"><img src="images/omb_hero-wholenewwaytowork_web.jpg"></p>
+<p align="center"><img src="images/Press-Image_FINAL_16x9-4.jpg"></p>
 
 # ai-case-study
 <p align="justify"> Case study on Microsoft Copilot feature that was introduced in Mar 2023 and available for preview for users in September 2023. This case study is to show case how the Copilot feature uses Artificial Intelligence, what are its capabilities? how it helps business users and developers? what is the future for Microsoft and Copilot? </p>
@@ -19,6 +19,8 @@ Their new ***Copilot feature that was introduced earlier this year is going to b
 <small>Source: [PowerPlatform AI Journey](https://cloudblogs.microsoft.com/powerplatform/2023/03/16/power-platform-is-leading-a-new-era-of-ai-generated-low-code-app-development/)</small>
 
 * OpenAI ChatGPT opened up AI concept to every human, people were amazed and at the same time scared about what AI can do. The whole ***Generative AI, NLP, and Large Language Models (LLMs)*** concepts started to trend and every technology company started to invest more and more to introduce it in one shape or form in their products. Microsoft is no exception to that, and with their already AI products and research they built this ***copilot is a next-gen AI assistnant which uses generative AI with Natural Langauage Processing to process your requests.*** Promoting as feature that increases productivity and reduce errors for Microsoft 365 products (previously known as Office 365) and making development faster with suggestions and coding templates in all their Power Platform products. Let's dive more in details and see how copilot works. 
+
+:arrows_clockwise: [ChatGPT vs. Microsoft 365 Copilot: What's the difference?](https://support.microsoft.com/en-us/topic/chatgpt-vs-microsoft-365-copilot-what-s-the-difference-8fdec864-72b1-46e1-afcb-8c12280d712f)
 
 ## What is Copilot? :question: 
 
@@ -66,6 +68,10 @@ For Developers Copilot is embedded in all of the Power Platform applications whi
 Consider you need to be notified when a new user is added to Users Table. 
 
 *To create an Power Automate (flow), it will take about 30 mins but with Copilot you can just ask "Create a flow get an email notification when an User is created in Users Table" and we will see options with the code in few seconds. We can optimize it , customize it as needed.* And this is for simple flow as the complexity increases the development time will be increasing but with Copilot that will exponentially reducing. 
+
+Here is a screen shot on how Copilot created a simple flow to send a message in teams chat when a email is sent to specific user. We just needed few words to create this flow. <small>Source: [Power Automate Copilot](https://learn.microsoft.com/en-us/power-automate/get-started-with-copilot)</small>
+
+![Power Automate Flow with Copilot](images/automateFlow.png)
 
 Here is a brief :tv: [video](https://wus-streaming-video-rt-microsoft-com.akamaized.net/2cb38883-7870-4dec-8e16-25d48c0e662f/b7e311e6-3a72-41ce-882c-b5800895_6750.mp4) about Copilot in Power Apps. 
 
