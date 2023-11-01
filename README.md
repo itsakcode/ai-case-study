@@ -4,11 +4,11 @@
 <p align="justify"> Case study on Microsoft Copilot feature that was introduced in Mar 2023 and available for preview for users in September 2023. This case study is to show case how the Copilot feature uses Artificial Intelligence, what are its capabilities? how it helps business users and developers? what is the future for Microsoft and Copilot? </p>
 
 # Microsoft Copilot
-<p align="justify">Microsoft introduced Copilot as new feature in 2023 for all Microsoft 365 (previously known as Office 365) and PowerPlatform Apps. It is a Generative AI tool that assists in completing the tasks or providing suggestions in their apps using NLP (Natural Language Processing).</p>
+<p align="justify">Microsoft anounced :loudspeaker: Copilot as new feature in 2023 for all Microsoft 365 (previously known as Office 365) and PowerPlatform Apps. It is a Generative AI tool that assists in completing the tasks or providing suggestions in their apps using NLP (Natural Language Processing).</p>
 
 You can read more here [Microsoft introduction to Copilot published Mar 16, 2023](https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/)
 
-## Overview and Origin {#origin-id}
+## Overview and Origin {#origin-id} :scroll:
 
 * Microsoft, the company which doesn't need an introduction. It is a company known to almost everyone on the planet at least one of the products developed by them will be used in every business, company or house. Windows, MS Office (Word, Excel, PowePoint), Internet Explorer, Outlook, OneDrive, Skype, Teams Chat, Azure, XBox, Surface and so on the list goes on. The company has always catching up with trends and innovating in technology. 
 Their new ***Copilot feature that was introduced earlier this year is going to be a trend setting across business applications and we will discuss more about it in this case study***.
@@ -75,15 +75,15 @@ Another major application from Microsoft: Dynamics 365 is also introduced with C
 
 Based on Microsoft's market across M365 apps, Power Platform and Dynamics 365 it will be a huge financial and technological achievement once this Copilot reaches every customer. 
 
-## How does Copilot works?
+## How does Copilot works? :eyes:
 
-Satya Nadella tweeted this on March 16, 
+Satya Nadella :speech_balloon: tweeted this on March 16, 
 
 >"With Microsoft 365 Copilot, we're giving people more agency and making technology more accessible with advanced AI and the most universal user interface: natural language."
 
 Copilot is built on *Large Language Models (LLMs)* hosted in Microsoft cloud. All of these models are trained using every publicly available resources. And these models use the your prompts and context to generate reponses. The more interaction you do, the more knowledgable Copilot becomes. Microsoft Graph (which contains every details about your data, its relationships, and activities happening across your organization) is the major data source for copilot and helps to provide responses related to data you provided access to. 
 
-Check more on origin of Copilot [here](#overview-and-origin-origin-id)
+If you want a recap on ChatGPT and Microsoft AI journey go to [top :point_up:](#overview-and-origin-origin-id)
 
 Watch this video to understnad more on [How Copilot works?](https://www.youtube.com/watch?v=B2-8wrF9Okc)
 
@@ -108,7 +108,7 @@ Below are some stats on Microsoft 365 Application suite,
 
 <small>Source: [M365 Revenue and Growth](https://www.usesignhouse.com/blog/microsoft-365-suite-stats#who-is-the-competitor-of-microsoft-365)</small>
 
-As per [CNBC News](https://www.cnbc.com/2023/11/01/microsoft-365-copilot-becomes-generally-available.html) Microsoft is projected to make $10 billion per year with Copilot subscriptions.
+As per [CNBC News](https://www.cnbc.com/2023/11/01/microsoft-365-copilot-becomes-generally-available.html) Microsoft is projected to make $10 billion per year with Copilot subscriptions. :astonished: :clap: :moneybag: 
 
 Power Platform stats are below, 
 
@@ -144,10 +144,12 @@ Currently Copilot is in preview and available to all customer, so if you have li
 
 If you don't have Microsoft linceses and like to explore more and get hands on, you can create your developer environment and explore more on Microsoft Products. You can find more details [here](https://techcommunity.microsoft.com/t5/educator-developer-blog/getting-started-with-copilot-for-power-platform-a-guide-for/ba-p/3946180) on how to create environment and start using.
 
-## More Resources
+## More Reading Material :books:
 
 * [AI Copilot Overview](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/ai-overview)
 * [Power Apps announces new Copilot ](https://powerapps.microsoft.com/en-us/blog/power-apps-announces-new-copilot-abilities-modern-controls-and-governance-tools-at-the-power-platform-conference/)
 * [Get started with Copilot in cloud flows](https://learn.microsoft.com/en-us/power-automate/get-started-with-copilot)
 * [Power Platform Prompt Library](https://pnp.github.io/powerplatform-prompts/)
 * [Create Power Platform solutions with AI and Copilot](https://learn.microsoft.com/en-us/training/paths/copilot-solutions/?WT.mc_id=power-101044-gmohapi)
+
+:checkered_flag:
