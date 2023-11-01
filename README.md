@@ -4,13 +4,13 @@
 <p align="justify"> Case study on Microsoft Copilot feature that was introduced in Mar 2023 and available for preview for users in September 2023. This case study is to show case how the Copilot feature uses Artificial Intelligence, what are its capabilities? how it helps business users and developers? what is the future for Microsoft and Copilot? </p>
 
 # Microsoft Copilot
-<p align="justify">Microsoft introduced Copilot as new feature in 2023 for all Microsoft 365 (previously known as Office 365) and PowerPlatform Apps. It is a ==Generative AI== tool that assists in completing the tasks or providing suggestions in their apps using NLP (Natural Language Processing).</p>
+<p align="justify">Microsoft introduced Copilot as new feature in 2023 for all Microsoft 365 (previously known as Office 365) and PowerPlatform Apps. It is a Generative AI tool that assists in completing the tasks or providing suggestions in their apps using NLP (Natural Language Processing).</p>
 
 You can read more here [Microsoft introduction to Copilot published Mar 16, 2023](https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/)
 
 ## Overview and Origin {#origin-id}
 
-* Microsoft, the company which don't an introduction to anyone. It is a company known to almost everyone on the planet at least one of the products developed by them will be used in every business, company or house. Windows, MS Office (Word, Excel, PowePoint), Internet Explorer, Outlook, OneDrive, Skype, Teams Chat, Azure, XBox, Surface and so on the list goes on. The company has always catching up with trends and innovating in technology. 
+* Microsoft, the company which doesn't need an introduction. It is a company known to almost everyone on the planet at least one of the products developed by them will be used in every business, company or house. Windows, MS Office (Word, Excel, PowePoint), Internet Explorer, Outlook, OneDrive, Skype, Teams Chat, Azure, XBox, Surface and so on the list goes on. The company has always catching up with trends and innovating in technology. 
 Their new ***Copilot feature that was introduced earlier this year is going to be a trend setting across business applications and we will discuss more about it in this case study***.
 
 * Microsoft has been investing and researching on AI from long time. They have introduced few features that were not so successful. But have dedicated to make products more innovative, and see how to help both users and developers. Below are some of their Generative AI features introduced from 2019 until today with Copilot. 
@@ -18,13 +18,15 @@ Their new ***Copilot feature that was introduced earlier this year is going to b
 ![AI Joruney Microsoft](images/Infusing-AI-in-low-code-since-2019.webp)
 <small>Source: [PowerPlatform AI Journey](https://cloudblogs.microsoft.com/powerplatform/2023/03/16/power-platform-is-leading-a-new-era-of-ai-generated-low-code-app-development/)</small>
 
-* OpenAI ChatGPT opened up AI concept to every human, people were amazed and at the same time scared about what AI can do. The whole ***Generative AI, NLP, and Large Language Models (LLMs)*** concepts started to trend and every technology company started to invest more and more to introduce it in one shape or form in their products. Microsoft is no exception to that, and with their already AI products and research they built this ***copilot which uses your data to build LLMs assuring that it is safe and secure.*** Promoting as feature that increases productivity and reduce errors for Microsoft 365 products (previously known as Office 365) and increasing development time making it faster with suggestions and coding templates in all their Power Platform products. Let's dive more in details and see how copilot works. 
-
-Read more: [M365 Copilot for work](https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/)
+* OpenAI ChatGPT opened up AI concept to every human, people were amazed and at the same time scared about what AI can do. The whole ***Generative AI, NLP, and Large Language Models (LLMs)*** concepts started to trend and every technology company started to invest more and more to introduce it in one shape or form in their products. Microsoft is no exception to that, and with their already AI products and research they built this ***copilot is a next-gen AI assistnant which uses generative AI with Natural Langauage Processing to process your requests.*** Promoting as feature that increases productivity and reduce errors for Microsoft 365 products (previously known as Office 365) and making development faster with suggestions and coding templates in all their Power Platform products. Let's dive more in details and see how copilot works. 
 
 ## What is Copilot?
 
+***Copilot uses Large Language Models (LLMs) with your data in the Microsoft Graph and the Microsoft 365 apps to turn natural words into the most powerful productivity and assistant tool.***
+
 Copilot is targeting both end users and developers. Everything related to M365 is to increase productivity of end users who use M365 applications on day to day basis like Word, Excel, Outlook, Teams chat and so on. ***They call it reInvent Productivity.*** It accepts you natural words to create content, analyze data in excel, suggest meetings/to do/actions from teams meetings, write your emails, and so on. Eveything is based on the your company data stored in your tenant.
+
+Read more: [M365 Copilot for work](https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/)
 
 #### Sample Use Case
 Consider you have an Expense Report in an Excel Worksheet and you have 2 tasks to do. One to get the top 2 expense types and other one which month was more expensive. To complete these tasks below are steps using manual vs copilot. 
@@ -65,11 +67,8 @@ Consider you need to be notified when a new user is added to Users Table.
 
 *To create an Power Automate (flow), it will take about 30 mins but with Copilot you can just ask "Create a flow get an email notification when an User is created in Users Table" and we will see options with the code in few seconds. We can optimize it , customize it as needed.* And this is for simple flow as the complexity increases the development time will be increasing but with Copilot that will exponentially reducing. 
 
-Here is a brief video about Copilot in Power Apps. 
+Here is a brief [video](https://wus-streaming-video-rt-microsoft-com.akamaized.net/2cb38883-7870-4dec-8e16-25d48c0e662f/b7e311e6-3a72-41ce-882c-b5800895_6750.mp4) about Copilot in Power Apps. 
 
-https://wus-streaming-video-rt-microsoft-com.akamaized.net/2cb38883-7870-4dec-8e16-25d48c0e662f/b7e311e6-3a72-41ce-882c-b5800895_6750.mp4
-
-<video src="https://wus-streaming-video-rt-microsoft-com.akamaized.net/2cb38883-7870-4dec-8e16-25d48c0e662f/b7e311e6-3a72-41ce-882c-b5800895_6750.mp4"></video>
 <small>Source: [Copilot in Power Apps](https://powerapps.microsoft.com/en-us/blog/announcing-a-next-generation-ai-copilot-in-microsoft-power-apps-that-will-transform-low-code-development/)</small>
 
 Another major application from Microsoft: Dynamics 365 is also introduced with Copilot. And Microsoft tells it is the **first CRM and ERP application that uses Generative AI** to enhance and increase productivity with less effort. Read more on Dynamics 365 Copilot [here](https://blogs.microsoft.com/blog/2023/03/06/introducing-microsoft-dynamics-365-copilot/).
@@ -144,3 +143,11 @@ So there is huge competition for Copilot across industry, let's see who will be 
 Currently Copilot is in preview and available to all customer, so if you have license for M365 and Power Platform use this preview to get hands on and try out Generative AI capabilities.You can find out general availability of full version [here.](https://www.microsoft.com/en-us/microsoft-365/blog/2023/09/21/announcing-microsoft-365-copilot-general-availability-and-microsoft-365-chat/)
 
 If you don't have Microsoft linceses and like to explore more and get hands on, you can create your developer environment and explore more on Microsoft Products. You can find more details [here](https://techcommunity.microsoft.com/t5/educator-developer-blog/getting-started-with-copilot-for-power-platform-a-guide-for/ba-p/3946180) on how to create environment and start using.
+
+## More Resources
+
+* [AI Copilot Overview](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/ai-overview)
+* [Power Apps announces new Copilot ](https://powerapps.microsoft.com/en-us/blog/power-apps-announces-new-copilot-abilities-modern-controls-and-governance-tools-at-the-power-platform-conference/)
+* [Get started with Copilot in cloud flows](https://learn.microsoft.com/en-us/power-automate/get-started-with-copilot)
+* [Power Platform Prompt Library](https://pnp.github.io/powerplatform-prompts/)
+* [Create Power Platform solutions with AI and Copilot](https://learn.microsoft.com/en-us/training/paths/copilot-solutions/?WT.mc_id=power-101044-gmohapi)
