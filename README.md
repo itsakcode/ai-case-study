@@ -20,7 +20,7 @@ Their new ***Copilot feature that was introduced earlier this year is going to b
 
 * OpenAI ChatGPT opened up AI concept to every human, people were amazed and at the same time scared about what AI can do. The whole ***Generative AI, NLP, and Large Language Models (LLMs)*** concepts started to trend and every technology company started to invest more and more to introduce it in one shape or form in their products. Microsoft is no exception to that, and with their already AI products and research they built this ***copilot is a next-gen AI assistnant which uses generative AI with Natural Langauage Processing to process your requests.*** Promoting as feature that increases productivity and reduce errors for Microsoft 365 products (previously known as Office 365) and making development faster with suggestions and coding templates in all their Power Platform products. Let's dive more in details and see how copilot works. 
 
-## What is Copilot?
+## What is Copilot? :question: 
 
 ***Copilot uses Large Language Models (LLMs) with your data in the Microsoft Graph and the Microsoft 365 apps to turn natural words into the most powerful productivity and assistant tool.***
 
@@ -67,7 +67,7 @@ Consider you need to be notified when a new user is added to Users Table.
 
 *To create an Power Automate (flow), it will take about 30 mins but with Copilot you can just ask "Create a flow get an email notification when an User is created in Users Table" and we will see options with the code in few seconds. We can optimize it , customize it as needed.* And this is for simple flow as the complexity increases the development time will be increasing but with Copilot that will exponentially reducing. 
 
-Here is a brief [video](https://wus-streaming-video-rt-microsoft-com.akamaized.net/2cb38883-7870-4dec-8e16-25d48c0e662f/b7e311e6-3a72-41ce-882c-b5800895_6750.mp4) about Copilot in Power Apps. 
+Here is a brief :tv: [video](https://wus-streaming-video-rt-microsoft-com.akamaized.net/2cb38883-7870-4dec-8e16-25d48c0e662f/b7e311e6-3a72-41ce-882c-b5800895_6750.mp4) about Copilot in Power Apps. 
 
 <small>Source: [Copilot in Power Apps](https://powerapps.microsoft.com/en-us/blog/announcing-a-next-generation-ai-copilot-in-microsoft-power-apps-that-will-transform-low-code-development/)</small>
 
@@ -85,7 +85,7 @@ Copilot is built on *Large Language Models (LLMs)* hosted in Microsoft cloud. Al
 
 If you want a recap on ChatGPT and Microsoft AI journey go to [top :point_up:](#overview-and-origin-origin-id)
 
-Watch this video to understnad more on [How Copilot works?](https://www.youtube.com/watch?v=B2-8wrF9Okc)
+Watch this video :movie_camera: to understnad more on [How Copilot works?](https://www.youtube.com/watch?v=B2-8wrF9Okc)
 
 You can read more in detail on [How Copilot works?](https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/how-microsoft-365-copilot-works/ba-p/3822755)
 
@@ -138,7 +138,7 @@ OpenAI ChatGPT has been a leader in assisting developers with providing coding s
 
 So there is huge competition for Copilot across industry, let's see who will be the winner and who florusihes long term. 
 
-## Hands on Copilot
+## Hands on Copilot :computer:
 
 Currently Copilot is in preview and available to all customer, so if you have license for M365 and Power Platform use this preview to get hands on and try out Generative AI capabilities.You can find out general availability of full version [here.](https://www.microsoft.com/en-us/microsoft-365/blog/2023/09/21/announcing-microsoft-365-copilot-general-availability-and-microsoft-365-chat/)
 
