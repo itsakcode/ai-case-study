@@ -4,11 +4,11 @@
 <p align="justify"> Case study on Microsoft Copilot feature that was introduced in Mar 2023 and available for preview for users in September 2023. This case study is to show case how the Copilot feature uses Artificial Intelligence, what are its capabilities? how it helps business users and developers? what is the future for Microsoft and Copilot? </p>
 
 # Microsoft Copilot
-Microsoft introduced Copilot as new feature in 2023 for all Microsoft 365 (previously known as Office 365) and PowerPlatform Apps. It is a Generative AI tool that assists in completing the tasks or providing suggestions in their apps using NLP (Natural Language Processing).
+<p align="justify">Microsoft introduced Copilot as new feature in 2023 for all Microsoft 365 (previously known as Office 365) and PowerPlatform Apps. It is a ==Generative AI== tool that assists in completing the tasks or providing suggestions in their apps using NLP (Natural Language Processing).</p>
 
 You can read more here [Microsoft introduction to Copilot published Mar 16, 2023](https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/)
 
-## Overview and Origin
+## Overview and Origin {#origin-id}
 
 * Microsoft, the company which don't an introduction to anyone. It is a company known to almost everyone on the planet at least one of the products developed by them will be used in every business, company or house. Windows, MS Office (Word, Excel, PowePoint), Internet Explorer, Outlook, OneDrive, Skype, Teams Chat, Azure, XBox, Surface and so on the list goes on. The company has always catching up with trends and innovating in technology. 
 Their new ***Copilot feature that was introduced earlier this year is going to be a trend setting across business applications and we will discuss more about it in this case study***.
@@ -24,7 +24,31 @@ Read more: [M365 Copilot for work](https://blogs.microsoft.com/blog/2023/03/16/i
 
 ## What is Copilot?
 
-Copilot is targeting both end users and developers. Everything related to M365 is to increase productivity of end users who use M365 applications on day to day basis like Word, Excel, Outlook, Teams chat and so on. ***They call it reInvent Productivity.*** It accepts you natural words to create content, analyze data in excel, suggest meetings/to do/actions from teams meetings, write your emails, and so on. Eveything is based on the your company data stored in your tenant. 
+Copilot is targeting both end users and developers. Everything related to M365 is to increase productivity of end users who use M365 applications on day to day basis like Word, Excel, Outlook, Teams chat and so on. ***They call it reInvent Productivity.*** It accepts you natural words to create content, analyze data in excel, suggest meetings/to do/actions from teams meetings, write your emails, and so on. Eveything is based on the your company data stored in your tenant.
+
+#### Sample Use Case
+Consider you have an Expense Report in an Excel Worksheet and you have 2 tasks to do. One to get the top 2 expense types and other one which month was more expensive. To complete these tasks below are steps using manual vs copilot. 
+
+Task 1: Top 2 Expense Type
+
+| Manual                                             | Copilot                                                               |
+| -------------------------------------------------- | --------------------------------------------------------------------- |
+| Group the rows in worksheet by column expense type | Ask Copilot “What are the top 2 expense types based on amount spent?” |
+| Add a formula to sum all the amounts for each type |                                                                       |
+| Sort the worksheet by Group Amount                 |                                                                       |
+| Pick top 2 rows as expensive types                 |                                                                       |
+|                                                    |                                                                       |
+
+Task 2: Top expensive month
+
+| Manual                                                             | Copilot                                                  |
+| ------------------------------------------------------------------ | -------------------------------------------------------- |
+| Group the rows in worksheet by column date (by month) column  type | Ask Copilot “Which month of the year had more expenses?” |
+| Add a formula to sum all the amounts for each month                |                                                          |
+| Sort the worksheet by Group Amount                                 |                                                          |
+| Pick top rows as expensive month                                   |                                                          |
+|                                                                    |                                                          |
+
 
 <small>Excel with Copilot</small>
 ![Excel with Copilot](images/copilot-excel_web.gif) 
@@ -34,101 +58,89 @@ Copilot is targeting both end users and developers. Everything related to M365 i
 
 You can view more demos/videos related to all M365 apps [here](https://news.microsoft.com/reinventing-productivity/)
 
-For Developers Copilot is embedded in all of the Power Platform applications which is the application suite from Microsoft. They call it AI-first development. It consists of Power Apps, Virtual Agents, Power Automate and Power Pages. Copilot is to make development faster by providing suggestions and creating code using NLP. It reads data and analyzes your process and writes code or suggests better approach. It can create UI forms using your data models, adds new columns, create tables, create new flows, can be chatbot using virtual agents, and so on.
+For Developers Copilot is embedded in all of the Power Platform applications which is the application suite from Microsoft. ***They call it AI-first development.*** It consists of Power Apps, Virtual Agents, Power Automate and Power Pages. Copilot is to make development faster by providing suggestions and creating code using NLP. It reads data and analyzes your process and writes code or suggests better approach. It can create UI forms using your data models, adds new columns, create tables, create new flows, can be chatbot using virtual agents, and so on.
+
+#### Sample Use Case
+Consider you need to be notified when a new user is added to Users Table. 
+
+*To create an Power Automate (flow), it will take about 30 mins but with Copilot you can just ask "Create a flow get an email notification when an User is created in Users Table" and we will see options with the code in few seconds. We can optimize it , customize it as needed.* And this is for simple flow as the complexity increases the development time will be increasing but with Copilot that will exponentially reducing. 
 
 Here is a brief video about Copilot in Power Apps. 
+
+https://wus-streaming-video-rt-microsoft-com.akamaized.net/2cb38883-7870-4dec-8e16-25d48c0e662f/b7e311e6-3a72-41ce-882c-b5800895_6750.mp4
 
 <video src="https://wus-streaming-video-rt-microsoft-com.akamaized.net/2cb38883-7870-4dec-8e16-25d48c0e662f/b7e311e6-3a72-41ce-882c-b5800895_6750.mp4"></video>
 <small>Source: [Copilot in Power Apps](https://powerapps.microsoft.com/en-us/blog/announcing-a-next-generation-ai-copilot-in-microsoft-power-apps-that-will-transform-low-code-development/)</small>
 
-Another major application from Microsoft Dynamics 365 is also introduced with Copilot. And Microsoft tells it is the first CRM and ERP application that uses Generative AI to enhance and increase productivity with less effort. Read more on Dynamics 365 Copilot [here](https://blogs.microsoft.com/blog/2023/03/06/introducing-microsoft-dynamics-365-copilot/).
+Another major application from Microsoft: Dynamics 365 is also introduced with Copilot. And Microsoft tells it is the **first CRM and ERP application that uses Generative AI** to enhance and increase productivity with less effort. Read more on Dynamics 365 Copilot [here](https://blogs.microsoft.com/blog/2023/03/06/introducing-microsoft-dynamics-365-copilot/).
 
 Based on Microsoft's market across M365 apps, Power Platform and Dynamics 365 it will be a huge financial and technological achievement once this Copilot reaches every customer. 
 
 ## How does Copilot works?
 
-Copilot is built on Large Language Models (LLMs) hosted in Microsoft cloud. All of these models are trained using every publicly available resources. And these models use the your prompts and context to generate reponses. The more interaction you do, the more knowledgable Copilot becomes. Microsoft Graph (which contains every details about your data, its relationships, and activities happening across your organization) is the major data source for copilot and helps to provide responses related to data you provided access to. 
+Satya Nadella tweeted this on March 16, 
 
-Here is video on how Copilot works
+>"With Microsoft 365 Copilot, we're giving people more agency and making technology more accessible with advanced AI and the most universal user interface: natural language."
 
-<video src="https://www.youtube.com/watch?v=B2-8wrF9Okc"></video>
+Copilot is built on *Large Language Models (LLMs)* hosted in Microsoft cloud. All of these models are trained using every publicly available resources. And these models use the your prompts and context to generate reponses. The more interaction you do, the more knowledgable Copilot becomes. Microsoft Graph (which contains every details about your data, its relationships, and activities happening across your organization) is the major data source for copilot and helps to provide responses related to data you provided access to. 
 
-<small>[Read more on How Copilot works](https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/how-microsoft-365-copilot-works/ba-p/3822755)</small>
+Check more on origin of Copilot [here](#overview-and-origin-origin-id)
 
+Watch this video to understnad more on [How Copilot works?](https://www.youtube.com/watch?v=B2-8wrF9Okc)
 
-Microsoft's office application suite is and Google's G Suite covers almost 50% of the usage across globe. So, it is a major contribution to their portfolio and has great financial boost based on how well the product works. 
+You can read more in detail on [How Copilot works?](https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/how-microsoft-365-copilot-works/ba-p/3822755)
 
-* Who is the company's intended customer? Is there any information about the market size of this set of customers?
-* Microsoft created this feature for everyone who uses M365 applications for collaboration and increase productivity. 
-* And for PowerPlatform application developers and creators, help them to increase productivity by suggesting the code, and helping them identify processes across their organization, create a pattern for citizen developers and so on.
-* 
-[https://www.statista.com/statistics/983321/worldwide-office-365-user-numbers-by-country/#:\~:text=Office%20365%20is%20used%20by,related%20services%20to%20its%20subscribers.]
+## Financial Impact and future
 
-[https://msdynamicsworld.com/story/highlights-microsoft-2023-q3-earnings-power-platform-growth-profiting-ai-new-revenue-guidance]
+Copilot is almost new and customers are still using in preview mode, so we need to see how it will be adopted and how secured it will be for companies to use considering data is going to be a huge part of it. But so far it is showing a promising future for Copilot and Microsoft. 
 
-* What solution does this company offer that their competitors do not or cannot offer? (What is the unfair advantage they utilize?)
+Based on current customer base for M365, Power Platform and Dynamics 365 applications it will be a huge positive impact financialy to Microsoft. 
 
-After OpenAI ChatGPT emerged every technology started to embed the generative AI in some shape or form into their portfolio. And Microsoft is also doing the same on their widely used applications both end users applications like M365 office tools and development community using PowerPlatform applications. 
+:warning: Data governance will play huge factor both from customer and Microsoft. 
 
-We have Duet AI from Google which is a competitive feature to Microsoft’s  M365 Copilot. Both Google’s G Suite and Microsoft’s M365 share the market on office applications, google has upper hand and their Duet AI is little ahead of Copilot. Google Duet AI is more innovative for the content creators and Microsoft Copilot is mostly used for business users using office applications. 
+Below are some stats on Microsoft 365 Application suite, 
 
+- 345 million people are currently using Microsoft 365 (paid seats).
+- In 2022, the Microsoft 365 suite generated USD 63.36 billion in revenue.
+- As of 2022, Microsoft Office 365 commands a market share of approximately 47.9%.
+- The United States accounts for 34% of Microsoft Office 365 customers, while the United Kingdom accounts for 8%.
+- Microsoft operates in more than 150 countries and regions.
+- In 2022, there are about 39,930 users utilizing Microsoft 365 every hour.
 
-But Microsoft’s Power Platform Copilot is something new to developers and creators, who are already getting wide assistance from ChatGPT. The Copilot helps to develop business applications more faster and efficiently. As per Microsoft, Copilot is the first generative AI capability used in any of the CRM or ERP applications. [https://blogs.microsoft.com/blog/2023/03/06/introducing-microsoft-dynamics-365-copilot/]
+<small>Source: [M365 Revenue and Growth](https://www.usesignhouse.com/blog/microsoft-365-suite-stats#who-is-the-competitor-of-microsoft-365)</small>
 
+As per [CNBC News](https://www.cnbc.com/2023/11/01/microsoft-365-copilot-becomes-generally-available.html) Microsoft is projected to make $10 billion per year with Copilot subscriptions.
 
-* Which technologies are they currently using, and how are they implementing them? (This may take a little bit of sleuthing&mdash;you may want to search the company’s engineering blog or use sites like Stackshare to find this information.)
+Power Platform stats are below, 
 
-[https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/how-microsoft-365-copilot-works/ba-p/3822755]
+- More than 36,000 organizations have used "existing AI-powered capabilities in Power Platform"
+- Nearly 33 million monthly active users of Power Platform, up nearly 50% year-over-year
+- More than 2,500 Azure OpenAI Service customers, up 10X quarter-over-quarter
 
-###Microsoft Copilot Mechanics
-[https://www.youtube.com/watch?v=B2-8wrF9Okc]
+<small>Source: [Microsoft 2023 Q3 Earnings: Power Platform growth](https://msdynamicsworld.com/story/highlights-microsoft-2023-q3-earnings-power-platform-growth-profiting-ai-new-revenue-guidance)</small>
 
+Based on these customer base the new feature Copilot will be a huge growth for Microsoft and with AI trend across globe it is the perfect time to introduce these features to stand out with other competitors. 
 
+## Who is Copilot competing with?
 
-Add gifs or videos with demos. 
+AI has been a long term reasearch and development across mutilple large technology companies. Everyone wants to help their customers to optimize processes, automate tasks, increase productivity and reduce manual intervention. 
 
-## Landscape
+So, apart from Microsoft many other top companies, have invested a lot on exploring AI. Many startups, small companies have contributed so much to implement AI in some form. 
 
-* What field is the company in?
-* Microsoft is in business applications and has major share across the globe.
+Googles G Suite is one of the major competition for Microsoft's M365 Application Suite and Google has Duet AI as their Generative AI applications built on LLMs. We need to see which one flourishes more in coming years. 
 
-* What have been the major trends and innovations of this field over the last 5&ndash;10 years?
-* Microsoft has been the leader of operating system Windows from decades, and then the Office applications were introduced which is ruling the businesses and companies. 
-* 
-* What are the other major companies in this field?
-	Google, Salesforce, Outsystems, 
-* [https://www.gartner.com/reviews/market/multiexperience-development-platforms/vendor/microsoft/product/powerapps/alternatives]
+Visit below articles to learn more about two competitive products, 
 
-## Results
+* [Battle of the next-gen AI Smart Assistants](https://www.digitaltrends.com/computing/microsoft-copilot-vs-google-duet/)
+* [Battle of AI Assistants](https://www.uctoday.com/unified-communications/microsoft-copilot-vs-google-duet-battle-of-the-ai-assistants/)
+* [Duet AI vs Copilot: All the similarities and differences](https://www.itpro.com/technology/artificial-intelligence/duet-ai-vs-copilot-all-the-similarities-and-differences)
 
-* What has been the business impact of this company so far?
+OpenAI ChatGPT has been a leader in assisting developers with providing coding snippets, identifying errors, suggestions and so on. Now Power Platform Copilot something specific to development applications from Microsoft should compete with that and show what Microsoft LLMs are capable of. Other top companies have invested so much in creating a better applications to help developers community. IBM's Watson has been used in their products to analyze and optimize processes, automate tasks, and so on. 
 
+So there is huge competition for Copilot across industry, let's see who will be the winner and who florusihes long term. 
 
+## Hands on Copilot
 
+Currently Copilot is in preview and available to all customer, so if you have license for M365 and Power Platform use this preview to get hands on and try out Generative AI capabilities.You can find out general availability of full version [here.](https://www.microsoft.com/en-us/microsoft-365/blog/2023/09/21/announcing-microsoft-365-copilot-general-availability-and-microsoft-365-chat/)
 
-* What are some of the core metrics that companies in this field use to measure success? How is your company performing based on these metrics?
-
-
-
-* How is your company performing relative to competitors in the same field?
-
-
-
-## Recommendations
-
-* If you were to advise the company, what products or services would you suggest they offer? (This could be something that a competitor offers, or use your imagination!)
-
-With Microsoft being one of the top companies both financially and innovative, I want them to invest more in research with quantum computing using AI applications. It will help to go way ahead with the medical field and climate exploration. 
-
-
-* Why do you think that offering this product or service would benefit the company?
-Both Medical and Climate (environmental) studies require more studies and predictions.  The combination of AI and quantum computing will make this research faster and help to provide better medical treatments and get prepared for natural calamities. 
-
-
-* What technologies would this additional product or service utilize?
-Quantum Computing and AI. 
-
-
-* Why are these technologies appropriate for your solution?
-* Many AI applications, such as planning and scheduling, can benefit from quantum computing because it helps explore viable solutions to problems. AI architectures can be developed more efficiently and at a larger scale using quantum computers.
-[https://www.einfochips.com/blog/quantum-computing-in-artificial-intelligence-around-the-corner/#:\~:text=Many%20AI%20applications%2C%20such%20as,larger%20scale%20using%20quantum%20computers.]
+If you don't have Microsoft linceses and like to explore more and get hands on, you can create your developer environment and explore more on Microsoft Products. You can find more details [here](https://techcommunity.microsoft.com/t5/educator-developer-blog/getting-started-with-copilot-for-power-platform-a-guide-for/ba-p/3946180) on how to create environment and start using.
