@@ -140,9 +140,19 @@ Visit below articles to learn more about two competitive products,
 * [Battle of AI Assistants](https://www.uctoday.com/unified-communications/microsoft-copilot-vs-google-duet-battle-of-the-ai-assistants/)
 * [Duet AI vs Copilot: All the similarities and differences](https://www.itpro.com/technology/artificial-intelligence/duet-ai-vs-copilot-all-the-similarities-and-differences)
 
-OpenAI ChatGPT has been a leader in assisting developers with providing coding snippets, identifying errors, suggestions and so on. Now Power Platform Copilot something specific to development applications from Microsoft should compete with that and show what Microsoft LLMs are capable of. Other top companies have invested so much in creating a better applications to help developers community. IBM's Watson has been used in their products to analyze and optimize processes, automate tasks, and so on. 
+OpenAI ChatGPT has been a leader in assisting developers with providing coding snippets, identifying errors, suggestions and so on. Now Power Platform Copilot something specific to development applications from Microsoft should compete with that and show what Microsoft LLMs are capable of. Other top companies have invested so much in creating a better applications to help developers community. IBM's Watson has been used in their products to analyze and optimize processes, automate tasks, and so on.
+
+IBM's Watson has been used in their products to analyze and optimize processes, automate tasks, and so on. Watson also works similar way as Copilot, with IBM cloud data of the customer. But IBM is more focused on the business processes and assist processes of a company vs copilot's assistance to build the applications which is development process. So if Microsoft can optimize to assist business use cases on their products like Dynamics 365 it will be an added advantage. 
 
 So there is huge competition for Copilot across industry, let's see who will be the winner and who florusihes long term. 
+
+## Recommendations
+
+Copilot focuses on technical capabilities and most of the models are focused on technical assistance to build applications using their products. They do have the Virtual agents assistance which is like customer service. But I would like to see more assistance focusing on business side like comparing sales, trends and so on on their CRM product Dynamics 365. 
+
+IBM's Watson also works similar way as Copilot, with IBM cloud data of the customer. But IBM is more focused on the business processes and assist processes of a company vs copilot's assistance to build the applications which is development process. So if Microsoft can optimize to assist business use cases on their products like Dynamics 365 it will be an added advantage. 
+
+Based on my quick hands on other recommendation is to train the models to provide alternative solutions and options. One I tried was repeatedly suggesting same solution. I know it will be a training and will take time to optimize but that is something that needs to be focused on. 
 
 ## Hands on Copilot :computer:
 
