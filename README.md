@@ -142,7 +142,9 @@ Visit below articles to learn more about two competitive products,
 
 OpenAI ChatGPT has been a leader in assisting developers with providing coding snippets, identifying errors, suggestions and so on. Now Power Platform Copilot something specific to development applications from Microsoft should compete with that and show what Microsoft LLMs are capable of. Other top companies have invested so much in creating a better applications to help developers community. IBM's Watson has been used in their products to analyze and optimize processes, automate tasks, and so on.
 
-IBM's Watson has been used in their products to analyze and optimize processes, automate tasks, and so on. Watson also works similar way as Copilot, with IBM cloud data of the customer. But IBM is more focused on the business processes and assist processes of a company vs copilot's assistance to build the applications which is development process. So if Microsoft can optimize to assist business use cases on their products like Dynamics 365 it will be an added advantage. 
+Microsoft has introduced copilot across multiple of its products, so the competition also expands across different domains and technologies. We can see a trend in increasing AI assitant in each product so Microsoft need to catch up with the trend and along with presentation the quantity and quality of their LLMs will decide the future of copilot. 
+
+Here are some alternative products that are competing with copilot. [Microsoft 365 Copilot Alternatives](https://sourceforge.net/software/product/Microsoft-365-Copilot/alternatives)
 
 So there is huge competition for Copilot across industry, let's see who will be the winner and who florusihes long term. 
 
